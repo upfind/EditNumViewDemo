@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/editnumview_add_sub_bg"
+    android:divider="@drawable/divider_horizontal"
+    android:orientation="horizontal">
+
+    <ImageView
+        android:id="@+id/ivMinus"
+        android:layout_width="48dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_selector_left_btn"
+        android:clickable="true"
+        android:padding="@dimen/editnumview_btn_padding"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_minus" />
+
+    <EditText
+        android:id="@+id/etInput"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@null"
+        android:cursorVisible="true"
+        android:digits="0123456789"
+        android:gravity="center"
+        android:inputType="number"
+        android:maxLines="1"
+        android:minWidth="72dp"
+        android:text="1"
+        android:textColor="@color/editnumview_text"
+        android:textCursorDrawable="@null"
+        android:textSize="@dimen/editnumview_textsize" />
+
+
+    <ImageView
+        android:id="@+id/ivPlus"
+        android:layout_width="48dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_selector_right_btn"
+        android:clickable="true"
+        android:padding="@dimen/editnumview_btn_padding"
+        android:scaleType="centerInside"
+        android:src="@drawable/ic_plus" />
+
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="EditNumView">
+        <!--是否可输入-->
+        <attr name="editable" format="boolean" />
+        <!--输入框的位置-->
+        <attr name="location" format="enum">
+            <enum name="start" value="1" />
+            <enum name="end" value="2" />
+            <enum name="center" value="0" />
+        </attr>
+        <!--左右两边+— 按钮的宽度-->
+        <attr name="button_width" format="dimension" />
+        <!--中间EditView宽度-->
+        <attr name="content_width" format="dimension" />
+        <!--中间字体大小-->
+        <attr name="contentTextSize" format="dimension" />
+        <!--字体颜色-->
+        <attr name="contentTextColor" format="color" />
+        <!--整体背景-->
+        <attr name="allBackground" format="color|reference" />
+        <!--左边控件背景-->
+        <attr name="leftBackground" format="color|reference" />
+        <!--右边控件背景-->
+        <attr name="rightBackground" format="color|reference" />
+        <!--中间控件背景-->
+        <attr name="contentBackground" format="color|reference" />
+        <!--左面控件的资源-->
+        <attr name="leftResources" format="color|reference" />
+        <!--右面控件的资源-->
+        <attr name="rightResources" format="color|reference" />
+    </declare-styleable>
+
+</resources>
