@@ -2,9 +2,9 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:background="@drawable/editnumview_add_sub_bg"
     android:divider="@drawable/divider_horizontal"
     android:orientation="horizontal">
+    <!--android:background="@drawable/editnumview_add_sub_bg"-->
 
     <EditText
         android:id="@+id/etInput"
@@ -26,7 +26,7 @@
         android:id="@+id/ivMinus"
         android:layout_width="@dimen/editnumview_btn_width"
         android:layout_height="match_parent"
-        android:background="@drawable/bg_selector_left_btn"
+        android:background="@drawable/bg_selector_btn"
         android:clickable="true"
         android:padding="@dimen/editnumview_btn_padding"
         android:scaleType="centerInside"
@@ -37,7 +37,8 @@
         android:id="@+id/ivPlus"
         android:layout_width="@dimen/editnumview_btn_width"
         android:layout_height="match_parent"
-        android:background="@drawable/bg_selector_right_btn"
+        android:layout_marginLeft="8dp"
+        android:background="@drawable/bg_selector_btn"
         android:clickable="true"
         android:padding="@dimen/editnumview_btn_padding"
         android:scaleType="centerInside"

@@ -7,7 +7,11 @@
     tools:context="cn.upfinder.editnumviewdemo.MainActivity">
 
     <cn.upfinder.editnumview.EditNumView
+        android:id="@+id/editNumView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="match_parent"
+        app:env_inventory="10"
+        app:env_max="20"
+        app:env_step_num="5" />
 
 </LinearLayout>

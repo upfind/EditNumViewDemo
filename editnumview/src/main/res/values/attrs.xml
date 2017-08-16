@@ -2,33 +2,43 @@
 <resources>
     <declare-styleable name="EditNumView">
         <!--是否可输入-->
-        <attr name="editable" format="boolean" />
+        <attr name="env_editable" format="boolean" />
         <!--输入框的位置-->
-        <attr name="location" format="enum">
+        <attr name="env_layout_style" format="enum">
             <enum name="start" value="1" />
             <enum name="end" value="2" />
             <enum name="center" value="0" />
         </attr>
         <!--左右两边+— 按钮的宽度-->
-        <attr name="button_width" format="dimension" />
+        <attr name="env_btn_width" format="dimension" />
         <!--中间EditView宽度-->
-        <attr name="content_width" format="dimension" />
+        <attr name="env_content_width" format="dimension" />
         <!--中间字体大小-->
-        <attr name="contentTextSize" format="dimension" />
+        <attr name="env_content_text_size" format="dimension" />
         <!--字体颜色-->
-        <attr name="contentTextColor" format="color" />
+        <attr name="env_content_text_color" format="color" />
         <!--整体背景-->
-        <attr name="allBackground" format="color|reference" />
+        <attr name="env_background" format="color|reference" />
         <!--左边控件背景-->
-        <attr name="leftBackground" format="color|reference" />
+        <attr name="env_left_background" format="color|reference" />
         <!--右边控件背景-->
-        <attr name="rightBackground" format="color|reference" />
+        <attr name="env_right_background" format="color|reference" />
         <!--中间控件背景-->
-        <attr name="contentBackground" format="color|reference" />
+        <attr name="env_content_background" format="color|reference" />
         <!--左面控件的资源-->
-        <attr name="leftResources" format="color|reference" />
+        <attr name="env_left_src" format="color|reference" />
         <!--右面控件的资源-->
-        <attr name="rightResources" format="color|reference" />
+        <attr name="env_right_src" format="color|reference" />
+        <!--库存值-->
+        <attr name="env_inventory" format="integer" />
+        <!--可输入最大值-->
+        <attr name="env_max" format="integer" />
+        <!--可输入最小值-->
+        <attr name="env_min" format="integer" />
+        <!--每次增加（减小）数值-->
+        <attr name="env_step_num" format="integer" />
+        <!--设置当前默认显示个数-->
+        <attr name="env_current_num" format="integer" />
     </declare-styleable>
 
 </resources>
