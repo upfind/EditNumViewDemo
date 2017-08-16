@@ -4,14 +4,52 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
     tools:context="cn.upfinder.editnumviewdemo.MainActivity">
+
+
+    <cn.upfinder.editnumview.EditNumView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp" />
 
     <cn.upfinder.editnumview.EditNumView
         android:id="@+id/editNumView"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:env_btn_width="36dp"
+        app:env_current_num="10"
         app:env_inventory="10"
+        app:env_left_background="@drawable/bg_shape_oval_red"
         app:env_max="20"
+        app:env_right_background="@drawable/bg_shape_oval_red"
+        app:env_step_num="5" />
+
+    <cn.upfinder.editnumview.EditNumView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:env_btn_width="36dp"
+        app:env_inventory="10"
+        app:env_layout_style="end"
+        app:env_left_background="@drawable/bg_shape_oval_red"
+        app:env_max="20"
+        app:env_right_background="@drawable/bg_shape_oval_red"
+        app:env_step_num="5" />
+
+
+    <cn.upfinder.editnumview.EditNumView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:env_btn_width="36dp"
+        app:env_inventory="10"
+        app:env_layout_style="start"
+        app:env_left_background="@drawable/bg_shape_oval_red"
+        app:env_max="20"
+        app:env_right_background="@drawable/bg_shape_oval_red"
         app:env_step_num="5" />
 
 </LinearLayout>

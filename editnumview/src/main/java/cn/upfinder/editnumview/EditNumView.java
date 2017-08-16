@@ -18,7 +18,7 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 
 /**
- * Created by ucm on 2017/8/15.
+ * Created by upfinder on 2017/8/15.
  */
 
 public class EditNumView extends LinearLayout implements View.OnClickListener, TextWatcher {
@@ -136,13 +136,10 @@ public class EditNumView extends LinearLayout implements View.OnClickListener, T
             etInput.setTextColor(contentTextColor);
 
             if (background != null) {
-                setBackgroundDrawable(background);
+//                setBackgroundDrawable(background);
+                setBackground(background);
             }
 
-
-//            else {
-//                setBackgroundResource(R.drawable.editnumview_add_sub_bg);
-//            }
 
             if (contentBackground != null) {
                 etInput.setBackground(contentBackground);
