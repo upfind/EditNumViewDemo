@@ -18,7 +18,7 @@
         android:id="@+id/editNumView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="32dp"
         app:env_btn_width="36dp"
         app:env_current_num="10"
         app:env_inventory="10"
@@ -30,7 +30,7 @@
     <cn.upfinder.editnumview.EditNumView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="32dp"
         app:env_btn_width="36dp"
         app:env_inventory="10"
         app:env_layout_style="end"
@@ -43,7 +43,7 @@
     <cn.upfinder.editnumview.EditNumView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="32dp"
         app:env_btn_width="36dp"
         app:env_inventory="10"
         app:env_layout_style="start"
